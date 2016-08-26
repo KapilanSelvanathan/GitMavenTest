@@ -20,13 +20,13 @@ public class LoginTest {
 	public void doLogin() {
 		driver.get("https://www.facebook.com/");
 		
-		driver.findElement(By.xpath(".//*[@id='email']")).sendKeys("kapilan@yahoo.com");
+		driver.findElement(By.xpath(".//*[@id='email']")).sendKeys("kapilan_ww@yahoo.com");
 		
-		driver.findElement(By.xpath(".//*[@id='pass']")).sendKeys("ffff");
+		driver.findElement(By.xpath(".//*[@id='pass']")).sendKeys("c@sh8193");
 		
 		driver.findElement(By.xpath(".//*[@id='loginbutton']")).click();
 		
-		System.out.println("test");
+		
 			
 	}
 	@AfterSuite
