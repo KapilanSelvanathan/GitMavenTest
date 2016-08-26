@@ -22,7 +22,7 @@ public class LoginTest {
 		
 		driver.findElement(By.xpath(".//*[@id='email']")).sendKeys("kapilan_ww@yahoo.com");
 		
-		driver.findElement(By.xpath(".//*[@id='pass']")).sendKeys("c@sh8193");
+		driver.findElement(By.xpath(".//*[@id='pass']")).sendKeys("lol");
 		
 		driver.findElement(By.xpath(".//*[@id='loginbutton']")).click();
 		
